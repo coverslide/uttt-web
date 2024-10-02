@@ -1,4 +1,9 @@
 import Phaser from "phaser";
+import Xurl from "../assets/dist/X.png?url";
+import Ourl from "../assets/dist/O.png?url";
+import largeBoardUrl from "../assets/dist/largeBoard.png?url";
+import smallBoardUrl from "../assets/dist/smallBoard.png?url";
+import enabledBoxUrl from "../assets/dist/enabledBox.png?url";
 
 function buildConfig(parent: HTMLElement): Phaser.Types.Core.GameConfig {
   const gameConfig: Phaser.Types.Core.GameConfig = {
@@ -34,11 +39,11 @@ class GameScene extends Phaser.Scene {
   private completedImages: Phaser.GameObjects.Image[] = [];
 
   preload() {
-    this.load.image("X", "assets/dist/X.png");
-    this.load.image("O", "assets/dist/O.png");
-    this.load.image("largeBoard", "assets/dist/largeBoard.png");
-    this.load.image("smallBoard", "assets/dist/smallBoard.png");
-    this.load.image("enabledBox", "assets/dist/enabledBox.png");
+    this.load.image("X", Xurl);
+    this.load.image("O", Ourl);
+    this.load.image("largeBoard", largeBoardUrl);
+    this.load.image("smallBoard", smallBoardUrl);
+    this.load.image("enabledBox", enabledBoxUrl);
   }
 
   create() {
