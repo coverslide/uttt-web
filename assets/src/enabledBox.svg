@@ -1,0 +1,15 @@
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(128,128) scale(0.92)">
+  <rect
+    x="-128"
+    y="-128"
+    width="256"
+    height="256"
+    fill="none"
+    stroke="lime"
+    stroke-linecap="round"
+    stroke-width="5"
+    stroke-dasharray="5 10"
+  />
+  </g>
+</svg>

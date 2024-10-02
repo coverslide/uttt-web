@@ -1,0 +1,20 @@
+{
+  "name": "ultimate-tic-tac-toe-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@cover-slide/customelement": "^2.2.1",
+    "phaser": "^3.85.2",
+    "sakura.css": "^1.5.0"
+  }
+}

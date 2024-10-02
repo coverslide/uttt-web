@@ -1,0 +1,58 @@
+@import url("sakura.css");
+
+body {
+    background: #222222;
+}
+
+message-flash {
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+message-flash > close-button {
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    text-align: center;
+    border-radius: 0.25rem;
+    top: 0.5rem;
+    right: 1rem;
+    width: 1.5rem;
+    height:1.5rem;
+}
+message-flash > close-button > svg {
+    display:block;
+}
+
+message-flash[success] {
+    background: lightgreen;
+    border: 1px solid green;
+    color: green;
+}
+
+message-flash[info] {
+    background: lightblue;
+    border: 1px solid blue;
+    color: blue;
+}
+
+message-flash[warn] {
+    background: lightyellow;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+
+message-flash[error] {
+    background: lightcoral;
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+game-board {
+    display: block;
+}

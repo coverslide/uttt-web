@@ -1,0 +1,9 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shiny Red O -->
+  <g transform="translate(40, 40)">
+    <circle cx="0" cy="0" r="30" stroke="red" stroke-width="10" fill="none" />
+  </g>
+  <g transform="translate(39, 39)">
+    <circle cx="0" cy="0" r="32" fill="none" stroke="pink" stroke-width="2" />
+  </g>
+</svg>
