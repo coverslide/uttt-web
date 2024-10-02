@@ -2,7 +2,7 @@
 export default {
   server: {
     proxy: {
-      "/api":{
+      "/api": {
         target: "http://localhost:3000",
       },
       "/ws": {
