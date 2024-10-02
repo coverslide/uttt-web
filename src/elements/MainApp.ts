@@ -26,9 +26,7 @@ class MainApp extends CustomElement {
 CustomElement.register(
   MainApp,
   "main-app",
-  `<div>
-    <game-board></game-board>
-  </div>`,
+  `<game-board></game-board>`,
 );
 
 export default MainApp;

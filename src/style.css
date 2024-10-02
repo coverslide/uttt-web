@@ -2,6 +2,22 @@
 
 body {
   background: #222222;
+  padding: 0;
+  max-width: none;
+}
+
+main-app {
+  height: 100%;
+}
+
+game-board {
+  height: 100%;
+}
+
+game-board canvas {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 message-flash {
