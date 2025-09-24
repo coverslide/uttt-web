@@ -1,6 +1,9 @@
 /** @type {import('vite').UserConfig} */
 export default {
   base: "./",
+  build: {
+    outDir: "../",
+  },
   server: {
     proxy: {
       "/api": {
