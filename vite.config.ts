@@ -12,4 +12,9 @@ export default {
       },
     },
   },
+  build: {
+    // The deployable site is written to the parent game directory.
+    outDir: "..",
+    emptyOutDir: false,
+  },
 };
