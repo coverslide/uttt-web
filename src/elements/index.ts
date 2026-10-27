@@ -1,2 +1,2 @@
-import "./MainApp";
-import "./GameBoard";
+import './MainApp'
+import './GameBoard'

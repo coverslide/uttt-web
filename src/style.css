@@ -1,4 +1,4 @@
-@import url("sakura.css");
+@import url('sakura.css');
 
 body {
   background: black;
@@ -11,7 +11,7 @@ main-app {
 }
 
 game-board {
-  display:flex;
+  display: flex;
   height: 100%;
   justify-content: center;
   align-items: center;
