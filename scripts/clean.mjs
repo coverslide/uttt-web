@@ -9,11 +9,7 @@ import { fileURLToPath } from 'node:url'
 const repoDir = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const gameDir = resolve(repoDir, '..')
 
-const buildOutputs = [
-  "index.html",
-  "icon.svg",
-  "site.webmanifest"
-]
+const buildOutputs = ['index.html', 'icon.svg', 'site.webmanifest']
 
 if (gameDir === repoDir) {
   throw new Error('Refusing to clean: the repository is not inside a game directory.')
